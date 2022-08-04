@@ -1,0 +1,224 @@
+18:37:00,231 | INFO  | Config Loader | Loading config.json
+18:37:00,324 | INFO  | Adding new pair | ADD [Pair: EURUSD, Spread: 0]
+18:37:00,328 | INFO  | Creating client | CREATE [Empty client]
+18:37:01,770 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+18:37:01,780 | INFO  | Vadim | 166666@83.228.101.68:443 | SUBSCRIBE [Pair: EURUSD]
+18:37:02,234 | INFO  | FixLMAXBrokerConnector | Logon
+18:37:02,238 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+18:38:00,653 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+18:38:01,300 | INFO  | FixLMAXBrokerConnector | Logout
+18:41:34,324 | INFO  | Config Loader | Loading config.json
+18:41:34,417 | INFO  | Adding new pair | ADD [Pair: EURUSD, Spread: 0]
+18:41:34,419 | INFO  | Creating client | CREATE [Empty client]
+18:41:35,898 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+18:41:35,909 | INFO  | Vadim | 166666@83.228.101.68:443 | SUBSCRIBE [Pair: EURUSD]
+18:41:36,245 | INFO  | FixLMAXBrokerConnector | Logon
+18:41:36,249 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+18:41:54,665 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+18:41:55,109 | INFO  | FixLMAXBrokerConnector | Logout
+19:07:50,982 | INFO  | Config Loader | Loading config.json
+19:07:51,075 | INFO  | Adding new pair | ADD [Pair: EURUSD, Spread: 0]
+19:07:51,078 | INFO  | Creating client | CREATE [Empty client]
+19:07:52,582 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+19:07:52,585 | INFO  | Vadim | 166666@83.228.101.68:443 | Low broker Vadim connected
+19:07:52,593 | INFO  | Vadim | 166666@83.228.101.68:443 | SUBSCRIBE [Pair: EURUSD]
+19:07:53,016 | INFO  | FixLMAXBrokerConnector | Logon
+19:07:53,020 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:08:34,773 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+19:08:35,586 | INFO  | FixLMAXBrokerConnector | Logout
+19:09:28,877 | INFO  | Config Loader | Loading config.json
+19:09:28,969 | INFO  | Adding new pair | ADD [Pair: EURUSD, Spread: 0]
+19:09:28,972 | INFO  | Creating client | CREATE [Empty client]
+19:09:30,428 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+19:09:30,431 | INFO  | Vadim | 166666@83.228.101.68:443 | CONNECTED [Low broker]
+19:09:30,444 | INFO  | Vadim | 166666@83.228.101.68:443 | SUBSCRIBE [Pair: EURUSD]
+19:09:30,760 | INFO  | FixLMAXBrokerConnector | Logon
+19:09:30,764 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:09:57,629 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+19:09:58,131 | INFO  | FixLMAXBrokerConnector | Logout
+19:10:27,560 | INFO  | Config Loader | Loading config.json
+19:10:27,653 | INFO  | Adding new pair | ADD [Pair: EURUSD, Spread: 0]
+19:10:27,656 | INFO  | Creating client | CREATE [Empty client]
+19:10:29,145 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+19:10:29,148 | INFO  | Vadim | 166666@83.228.101.68:443 | CONNECTED [Fast broker]
+19:10:29,157 | INFO  | Vadim | 166666@83.228.101.68:443 | SUBSCRIBE [Pair: EURUSD]
+19:10:29,512 | INFO  | FixLMAXBrokerConnector | Logon
+19:10:29,516 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:10:46,583 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+19:10:46,858 | INFO  | FixLMAXBrokerConnector | Logout
+19:33:08,420 | INFO  | Config Loader | Loading config.json
+19:33:08,514 | INFO  | Adding new pair | ADD [Pair: EURUSD, Spread: 0]
+19:33:08,517 | INFO  | Creating client | CREATE [Empty client]
+19:33:09,930 | INFO  | Creating client | CREATE [Empty client]
+19:33:09,933 | INFO  | Vadim | 166666@83.228.101.68:443 | CONNECTED [FAST BROKER]
+19:33:09,942 | INFO  | Vadim | 166666@83.228.101.68:443 | SUBSCRIBE [Pair: EURUSD]
+19:33:09,969 | ERROR | UNHANDLED ThreadException | ThreadException EXCEPTION FROM SENDER: System.Threading.Thread => Message Config/Aglobe-Demo-1.srv not found | StackTrace    at TradingAPI.MT4Server.HostAndPort.parse(String serverFilePath) in C:\Users\ivasc\RiderProjects\MT4Arbitrage\mt4-terminal-api\HostAndPort.cs:line 8
+   at TradingAPI.MT4Server.QuoteClient.Init(Int32 user, String password, String serverFilePath) in C:\Users\ivasc\RiderProjects\MT4Arbitrage\mt4-terminal-api\QuoteClient.cs:line 437
+   at WinForm.SpreadWindow.SpreadWindow_Load(Object sender, EventArgs e) in C:\Users\ivasc\RiderProjects\MT4Arbitrage\WinForm\SpreadWindow.cs:line 131
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+19:33:43,962 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+19:34:04,145 | INFO  | Config Loader | Loading config.json
+19:34:04,238 | INFO  | Adding new pair | ADD [Pair: EURUSD, Spread: 0]
+19:34:04,240 | INFO  | Creating client | CREATE [Empty client]
+19:34:05,673 | INFO  | Creating client | CREATE [Empty client]
+19:34:05,677 | INFO  | Vadim | 166666@83.228.101.68:443 | CONNECTED [FAST BROKER]
+19:34:05,686 | INFO  | Vadim | 166666@83.228.101.68:443 | SUBSCRIBE [Pair: EURUSD]
+19:34:06,988 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+19:34:06,988 | INFO  | Vladyslav Amidamarru | 26015101@188.34.129.154:443 | CONNECTED [SLOW BROKER]
+19:34:06,989 | INFO  | Vladyslav Amidamarru | 26015101@188.34.129.154:443 | SUBSCRIBE [Pair: EURUSD]
+19:34:07,456 | INFO  | FixLMAXBrokerConnector | Logon
+19:34:07,459 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:35:11,726 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+19:35:12,638 | INFO  | FixLMAXBrokerConnector | Logout
+19:35:44,641 | INFO  | Config Loader | Loading config.json
+19:35:44,734 | INFO  | Adding new pair | ADD [Pair: EURUSD, Spread: 0]
+19:35:44,737 | INFO  | Creating client | CREATE [Empty client]
+19:35:46,185 | INFO  | Creating client | CREATE [Empty client]
+19:35:46,189 | INFO  | Vadim | 166666@83.228.101.68:443 | CONNECTED [FAST BROKER]
+19:35:46,197 | INFO  | Vadim | 166666@83.228.101.68:443 | SUBSCRIBE [Pair: EURUSD]
+19:35:47,615 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+19:35:47,616 | INFO  | Vladyslav Amidamarru | 26015101@188.34.129.154:443 | CONNECTED [SLOW BROKER]
+19:35:47,617 | INFO  | Vladyslav Amidamarru | 26015101@188.34.129.154:443 | SUBSCRIBE [Pair: EURUSD]
+19:35:49,029 | INFO  | FixLMAXBrokerConnector | Logon
+19:35:49,032 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:36:38,747 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+19:36:39,307 | INFO  | FixLMAXBrokerConnector | Logout
+19:39:58,326 | INFO  | Config Loader | Loading config.json
+19:39:58,419 | INFO  | Adding new pair | ADD [Pair: EURUSD, Spread: 0]
+19:39:58,422 | INFO  | Creating client | CREATE [Empty client]
+19:39:59,847 | INFO  | Creating client | CREATE [Empty client]
+19:39:59,851 | INFO  | Vadim | 166666@83.228.101.68:443 | CONNECTED [FAST BROKER]
+19:39:59,859 | INFO  | Vadim | 166666@83.228.101.68:443 | SUBSCRIBE [Pair: EURUSD]
+19:40:01,164 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+19:40:01,165 | INFO  | Vladyslav Amidamarru | 26015101@188.34.129.154:443 | CONNECTED [SLOW BROKER]
+19:40:01,165 | INFO  | Vladyslav Amidamarru | 26015101@188.34.129.154:443 | SUBSCRIBE [Pair: EURUSD]
+19:40:01,638 | INFO  | FixLMAXBrokerConnector | Logon
+19:40:01,642 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:40:16,831 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+19:40:17,185 | INFO  | FixLMAXBrokerConnector | Logout
+19:40:37,614 | INFO  | Config Loader | Loading config.json
+19:40:37,707 | INFO  | Adding new pair | ADD [Pair: EURUSD, Spread: 0]
+19:40:37,710 | INFO  | Creating client | CREATE [Empty client]
+19:40:39,168 | INFO  | Creating client | CREATE [Empty client]
+19:40:39,172 | INFO  | Vadim | 166666@83.228.101.68:443 | CONNECTED [SLOW BROKER]
+19:40:39,180 | INFO  | Vadim | 166666@83.228.101.68:443 | SUBSCRIBE [Pair: EURUSD]
+19:40:40,465 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+19:40:40,465 | INFO  | Vladyslav Amidamarru | 26015101@188.34.129.154:443 | CONNECTED [SLOW BROKER]
+19:40:40,466 | INFO  | Vladyslav Amidamarru | 26015101@188.34.129.154:443 | SUBSCRIBE [Pair: EURUSD]
+19:40:40,816 | INFO  | FixLMAXBrokerConnector | Logon
+19:40:40,819 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:41:16,197 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+19:41:16,388 | INFO  | FixLMAXBrokerConnector | Logout
+19:42:09,031 | INFO  | Config Loader | Loading config.json
+19:42:09,127 | INFO  | Adding new pair | ADD [Pair: EURUSD, Spread: 0]
+19:42:09,130 | INFO  | Creating client | CREATE [Empty client]
+19:42:10,541 | INFO  | Creating client | CREATE [Empty client]
+19:42:10,545 | INFO  | Vadim | 166666@83.228.101.68:443 | CONNECTED [SLOW BROKER]
+19:42:10,553 | INFO  | Vadim | 166666@83.228.101.68:443 | SUBSCRIBE [Pair: EURUSD]
+19:42:11,700 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+19:42:11,701 | INFO  | Vladyslav Amidamarru | 26015101@188.34.129.154:443 | CONNECTED [SLOW BROKER]
+19:42:11,701 | INFO  | Vladyslav Amidamarru | 26015101@188.34.129.154:443 | SUBSCRIBE [Pair: EURUSD]
+19:42:12,024 | INFO  | FixLMAXBrokerConnector | Logon
+19:42:12,027 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:42:24,535 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+19:42:25,167 | INFO  | FixLMAXBrokerConnector | Logout
+19:46:59,957 | INFO  | Config Loader | Loading config.json
+19:47:00,050 | INFO  | Adding new pair | ADD [Pair: EURUSD, Spread: 0]
+19:47:00,052 | INFO  | Creating client | CREATE [Empty client]
+19:47:01,469 | INFO  | Creating client | CREATE [Empty client]
+19:47:01,473 | INFO  | Vadim | 166666@83.228.101.68:443 | CONNECTED [SLOW BROKER]
+19:47:01,481 | INFO  | Vadim | 166666@83.228.101.68:443 | SUBSCRIBE [Pair: EURUSD]
+19:47:02,785 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+19:47:02,785 | INFO  | Vladyslav Amidamarru | 26015101@188.34.129.154:443 | CONNECTED [SLOW BROKER]
+19:47:02,786 | INFO  | Vladyslav Amidamarru | 26015101@188.34.129.154:443 | SUBSCRIBE [Pair: EURUSD]
+19:47:03,264 | INFO  | FixLMAXBrokerConnector | Logon
+19:47:03,268 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:47:47,845 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+19:47:48,857 | INFO  | FixLMAXBrokerConnector | Logout
+19:49:38,844 | INFO  | Config Loader | Loading config.json
+19:49:38,937 | INFO  | Adding new pair | ADD [Pair: EURUSD, Spread: 0]
+19:49:38,940 | INFO  | Creating client | CREATE [Empty client]
+19:49:40,391 | INFO  | Creating client | CREATE [Empty client]
+19:49:40,394 | INFO  | Vadim | 166666@83.228.101.68:443 | CONNECTED [FAST BROKER]
+19:49:40,402 | INFO  | Vadim | 166666@83.228.101.68:443 | SUBSCRIBE [Pair: EURUSD]
+19:49:41,755 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+19:49:41,755 | INFO  | Vladyslav Amidamarru | 26015101@188.34.129.154:443 | CONNECTED [SLOW BROKER]
+19:49:41,756 | INFO  | Vladyslav Amidamarru | 26015101@188.34.129.154:443 | SUBSCRIBE [Pair: EURUSD]
+19:49:42,081 | INFO  | FixLMAXBrokerConnector | Logon
+19:49:42,084 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:50:32,425 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+19:50:32,774 | INFO  | FixLMAXBrokerConnector | Logout
+19:50:56,309 | INFO  | Config Loader | Loading config.json
+19:50:56,402 | INFO  | Adding new pair | ADD [Pair: EURUSD, Spread: 0.001]
+19:50:56,404 | INFO  | Creating client | CREATE [Empty client]
+19:50:57,853 | INFO  | Creating client | CREATE [Empty client]
+19:50:57,857 | INFO  | Vadim | 166666@83.228.101.68:443 | CONNECTED [FAST BROKER]
+19:50:57,865 | INFO  | Vadim | 166666@83.228.101.68:443 | SUBSCRIBE [Pair: EURUSD]
+19:50:59,152 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+19:50:59,153 | INFO  | Vladyslav Amidamarru | 26015101@188.34.129.154:443 | CONNECTED [SLOW BROKER]
+19:50:59,153 | INFO  | Vladyslav Amidamarru | 26015101@188.34.129.154:443 | SUBSCRIBE [Pair: EURUSD]
+19:50:59,498 | INFO  | FixLMAXBrokerConnector | Logon
+19:50:59,502 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:51:15,892 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+19:51:16,268 | INFO  | FixLMAXBrokerConnector | Logout
+19:51:28,882 | INFO  | Config Loader | Loading config.json
+19:51:28,978 | INFO  | Adding new pair | ADD [Pair: EURUSD, Spread: 0.0001]
+19:51:28,980 | INFO  | Creating client | CREATE [Empty client]
+19:51:30,410 | INFO  | Creating client | CREATE [Empty client]
+19:51:30,414 | INFO  | Vadim | 166666@83.228.101.68:443 | CONNECTED [FAST BROKER]
+19:51:30,422 | INFO  | Vadim | 166666@83.228.101.68:443 | SUBSCRIBE [Pair: EURUSD]
+19:51:31,711 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+19:51:31,712 | INFO  | Vladyslav Amidamarru | 26015101@188.34.129.154:443 | CONNECTED [SLOW BROKER]
+19:51:31,712 | INFO  | Vladyslav Amidamarru | 26015101@188.34.129.154:443 | SUBSCRIBE [Pair: EURUSD]
+19:51:32,065 | INFO  | FixLMAXBrokerConnector | Logon
+19:51:32,068 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:51:52,958 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+19:51:53,327 | INFO  | FixLMAXBrokerConnector | Logout
+20:02:13,058 | INFO  | Config Loader | Loading config.json
+20:02:13,157 | INFO  | Adding new pair | ADD [Pair: EURUSD, Spread: 0.0001]
+20:02:13,160 | INFO  | Creating client | CREATE [Empty client]
+20:02:14,609 | INFO  | Creating client | CREATE [Empty client]
+20:02:14,613 | INFO  | Vadim | 166666@83.228.101.68:443 | CONNECTED [FAST BROKER]
+20:02:14,621 | INFO  | Vadim | 166666@83.228.101.68:443 | SUBSCRIBE [Pair: EURUSD]
+20:02:15,907 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+20:02:15,908 | INFO  | Vladyslav Amidamarru | 26015101@188.34.129.154:443 | CONNECTED [SLOW BROKER]
+20:02:15,908 | INFO  | Vladyslav Amidamarru | 26015101@188.34.129.154:443 | SUBSCRIBE [Pair: EURUSD]
+20:02:16,396 | INFO  | FixLMAXBrokerConnector | Logon
+20:02:16,400 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+20:02:24,205 | INFO  | Config Loader | Loading config.json
+20:02:24,298 | INFO  | Adding new pair | ADD [Pair: EURUSD, Spread: 0.0001]
+20:02:24,300 | INFO  | Creating client | CREATE [Empty client]
+20:02:25,711 | INFO  | Creating client | CREATE [Empty client]
+20:02:25,715 | INFO  | Vadim | 166666@83.228.101.68:443 | CONNECTED [FAST BROKER]
+20:02:25,723 | INFO  | Vadim | 166666@83.228.101.68:443 | SUBSCRIBE [Pair: EURUSD]
+20:02:27,052 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+20:02:27,052 | INFO  | Vladyslav Amidamarru | 26015101@188.34.129.154:443 | CONNECTED [SLOW BROKER]
+20:02:27,053 | INFO  | Vladyslav Amidamarru | 26015101@188.34.129.154:443 | SUBSCRIBE [Pair: EURUSD]
+20:02:27,375 | INFO  | FixLMAXBrokerConnector | Logon
+20:02:27,379 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+20:13:02,551 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+20:13:02,633 | INFO  | FixLMAXBrokerConnector | Logout
+20:15:43,783 | INFO  | Config Loader | Loading config.json
+20:15:43,876 | INFO  | Adding new pair | ADD [Pair: EURUSD, Spread: 0.0001]
+20:15:43,878 | INFO  | Creating client | CREATE [Empty client]
+20:15:45,369 | INFO  | Creating client | CREATE [Empty client]
+20:15:45,377 | INFO  | Vadim | 166666@83.228.101.68:443 | CONNECTED [FAST BROKER]
+20:15:45,385 | INFO  | Vadim | 166666@83.228.101.68:443 | SUBSCRIBE [Pair: EURUSD]
+20:15:46,766 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+20:15:46,767 | INFO  | Vladyslav Amidamarru | 26015101@188.34.129.154:443 | CONNECTED [SLOW BROKER]
+20:15:46,768 | INFO  | Vladyslav Amidamarru | 26015101@188.34.129.154:443 | SUBSCRIBE [Pair: EURUSD]
+20:15:47,359 | INFO  | FixLMAXBrokerConnector | Logon
+20:15:47,363 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+20:17:44,403 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+20:17:45,071 | INFO  | FixLMAXBrokerConnector | Logout

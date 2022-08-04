@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{DFA0742E-0E69-4937-B973-599B80CCF173}</ProjectGuid>
+        <OutputType>WinExe</OutputType>
+        <RootNamespace>WinForm</RootNamespace>
+        <AssemblyName>WinForm</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+        <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+        <Deterministic>true</Deterministic>
+        <LangVersion>10</LangVersion>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="Autofac">
+          <HintPath>..\..\..\.nuget\packages\autofac\6.3.0\lib\net5.0\Autofac.dll</HintPath>
+        </Reference>
+        <Reference Include="log4net, Version=2.0.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a">
+            <HintPath>..\..\..\.nuget\packages\log4net\2.0.13\lib\netstandard2.0\log4net.dll</HintPath>
+        </Reference>
+        <Reference Include="QuickFix">
+          <HintPath>..\..\..\.nuget\packages\quickfixn.core\1.10.0\lib\netstandard2.0\QuickFix.dll</HintPath>
+        </Reference>
+        <Reference Include="System" />
+        <Reference Include="System.Configuration" />
+        <Reference Include="System.Core" />
+        <Reference Include="System.Drawing" />
+        <Reference Include="System.Drawing.Design" />
+        <Reference Include="System.Web" />
+        <Reference Include="System.Xml.Linq" />
+        <Reference Include="System.Data.DataSetExtensions" />
+        <Reference Include="Microsoft.CSharp" />
+        <Reference Include="System.Data" />
+        <Reference Include="System.Deployment" />
+        <Reference Include="System.Net.Http" />
+        <Reference Include="System.Windows.Forms" />
+        <Reference Include="System.Xml" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Config\ConfigLoader.cs" />
+        <Compile Include="Config\DTOStructures.cs" />
+        <Compile Include="GlobalExceptionLogHandler.cs" />
+        <Compile Include="LogWindow.cs">
+            <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="LogWindow.Designer.cs">
+            <DependentUpon>LogWindow.cs</DependentUpon>
+        </Compile>
+        <Compile Include="MainWindow.cs">
+            <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="MainWindow.Designer.cs">
+            <DependentUpon>MainWindow.cs</DependentUpon>
+        </Compile>
+        <Compile Include="ObserverUpdateRenderer.cs" />
+        <Compile Include="Program.cs" />
+        <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="SpreadWindow.cs">
+            <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="SpreadWindow.Designer.cs">
+            <DependentUpon>SpreadWindow.cs</DependentUpon>
+        </Compile>
+        <EmbeddedResource Include="LogWindow.resx">
+            <DependentUpon>LogWindow.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="MainWindow.resx">
+            <DependentUpon>MainWindow.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Properties\Resources.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+            <SubType>Designer</SubType>
+        </EmbeddedResource>
+        <Compile Include="Properties\Resources.Designer.cs">
+            <AutoGen>True</AutoGen>
+            <DependentUpon>Resources.resx</DependentUpon>
+        </Compile>
+        <EmbeddedResource Include="SpreadWindow.resx">
+            <DependentUpon>SpreadWindow.cs</DependentUpon>
+        </EmbeddedResource>
+        <None Include="Properties\Settings.settings">
+            <Generator>SettingsSingleFileGenerator</Generator>
+            <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+        </None>
+        <Compile Include="Properties\Settings.Designer.cs">
+            <AutoGen>True</AutoGen>
+            <DependentUpon>Settings.settings</DependentUpon>
+            <DesignTimeSharedInput>True</DesignTimeSharedInput>
+        </Compile>
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="App.config" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\LMAXConnector\LMAXConnector.csproj">
+          <Project>{11cf42ce-0e37-4a7a-b642-805b79045b8e}</Project>
+          <Name>LMAXConnector</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\mt4-terminal-api\mt4-terminal-api.csproj">
+            <Project>{c32456e7-d899-4a42-9ab5-323d59322f03}</Project>
+            <Name>mt4-terminal-api</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\QuoteObserver\QuoteObserver.csproj">
+            <Project>{db5f89b3-31eb-4554-8a7c-7ae8207b7919}</Project>
+            <Name>QuoteObserver</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\Shared\Shared.csproj">
+            <Project>{b6c3ac9d-8e6c-4a1b-8a22-bfa9800e64fd}</Project>
+            <Name>Shared</Name>
+        </ProjectReference>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Autofac" Version="6.3.0" />
+        <PackageReference Include="IsExternalInit" Version="1.0.2">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="JetBrains.Annotations" Version="2022.1.0" />
+        <PackageReference Include="log4net" Version="2.0.14" />
+        <PackageReference Include="QuickFIXn.Core" Version="1.10.0" />
+        <PackageReference Include="Unity" Version="5.11.10" />
+        <PackageReference Include="Unity.Abstractions" Version="5.11.7" />
+        <PackageReference Include="Unity.Container" Version="5.11.11" />
+        <PackageReference Include="Unity.Interception" Version="5.11.1" />
+        <PackageReference Include="Utf8Json" Version="1.3.7" />
+        <PackageReference Include="WeifenLuo.WinFormsUI.Docking" Version="2.1.0" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="Config\Aglobe-Demo-1.srv">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Config\config.cfg">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Config\config.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Config\FIX44.xml">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Config\Pairs.csv">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Config\Varchev-Demo.srv">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

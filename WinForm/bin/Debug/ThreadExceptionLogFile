@@ -1,0 +1,13 @@
+ThreadException EXCEPTION FROM SENDER: System.Threading.Thread => Message Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index | StackTrace    at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at WinForm.SpreadWindow.InfoDataGridView_CellMouseClick(Object sender, DataGridViewCellMouseEventArgs e) in C:\Users\ivasc\RiderProjects\MT4Arbitrage\WinForm\SpreadWindow.cs:line 215
+   at System.Windows.Forms.DataGridView.OnCellMouseClick(DataGridViewCellMouseEventArgs e)
+   at System.Windows.Forms.DataGridView.OnMouseClick(MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.DataGridView.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)

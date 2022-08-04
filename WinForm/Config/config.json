@@ -1,0 +1,30 @@
+{
+  "pairs": [
+    {
+      "name": "EURUSD",
+      "spread": 0.001
+    },
+    {
+      "name": "GBPUSD",
+      "spread": 0.001
+    },
+    {
+      "name": "USDJPY",
+      "spread": 0.001
+    }
+  ],
+  "fastBrokers": [
+    {
+      "user": 166666,
+      "password": "0pkytst",
+      "srvFilePath": "Config/Varchev-Demo.srv"
+    }
+  ],
+  "slowBrokers": [
+    {
+      "user": 26015101,
+      "password": "7oF6CEuAF2kq",
+      "srvFilePath": "Config/Aglobe-Demo-1.srv"
+    }
+  ]
+}

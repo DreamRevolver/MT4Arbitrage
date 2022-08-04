@@ -1,0 +1,15 @@
+19:33:09,969 | ERROR | UNHANDLED ThreadException | ThreadException EXCEPTION FROM SENDER: System.Threading.Thread => Message Config/Aglobe-Demo-1.srv not found | StackTrace    at TradingAPI.MT4Server.HostAndPort.parse(String serverFilePath) in C:\Users\ivasc\RiderProjects\MT4Arbitrage\mt4-terminal-api\HostAndPort.cs:line 8
+   at TradingAPI.MT4Server.QuoteClient.Init(Int32 user, String password, String serverFilePath) in C:\Users\ivasc\RiderProjects\MT4Arbitrage\mt4-terminal-api\QuoteClient.cs:line 437
+   at WinForm.SpreadWindow.SpreadWindow_Load(Object sender, EventArgs e) in C:\Users\ivasc\RiderProjects\MT4Arbitrage\WinForm\SpreadWindow.cs:line 131
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)

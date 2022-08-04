@@ -1,0 +1,13 @@
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\LMAXConnector\bin\Debug\netstandard2.0\LMAXConnector.deps.json
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\LMAXConnector\bin\Debug\netstandard2.0\LMAXConnector.dll
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\LMAXConnector\bin\Debug\netstandard2.0\LMAXConnector.pdb
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\LMAXConnector\bin\Debug\netstandard2.0\Shared.dll
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\LMAXConnector\bin\Debug\netstandard2.0\Shared.pdb
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\LMAXConnector\obj\Debug\netstandard2.0\LMAXConnector.csproj.AssemblyReference.cache
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\LMAXConnector\obj\Debug\netstandard2.0\LMAXConnector.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\LMAXConnector\obj\Debug\netstandard2.0\LMAXConnector.AssemblyInfoInputs.cache
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\LMAXConnector\obj\Debug\netstandard2.0\LMAXConnector.AssemblyInfo.cs
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\LMAXConnector\obj\Debug\netstandard2.0\LMAXConnector.csproj.CoreCompileInputs.cache
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\LMAXConnector\obj\Debug\netstandard2.0\LMAXConnector.csproj.CopyComplete
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\LMAXConnector\obj\Debug\netstandard2.0\LMAXConnector.dll
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\LMAXConnector\obj\Debug\netstandard2.0\LMAXConnector.pdb

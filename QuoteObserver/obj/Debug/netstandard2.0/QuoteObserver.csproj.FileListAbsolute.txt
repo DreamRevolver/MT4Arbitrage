@@ -1,0 +1,15 @@
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\QuoteObserver\bin\Debug\netstandard2.0\QuoteObserver.deps.json
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\QuoteObserver\bin\Debug\netstandard2.0\QuoteObserver.dll
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\QuoteObserver\bin\Debug\netstandard2.0\QuoteObserver.pdb
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\QuoteObserver\bin\Debug\netstandard2.0\mt4-terminal-api.dll
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\QuoteObserver\bin\Debug\netstandard2.0\Shared.dll
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\QuoteObserver\bin\Debug\netstandard2.0\mt4-terminal-api.pdb
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\QuoteObserver\bin\Debug\netstandard2.0\Shared.pdb
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\QuoteObserver\obj\Debug\netstandard2.0\QuoteObserver.csproj.AssemblyReference.cache
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\QuoteObserver\obj\Debug\netstandard2.0\QuoteObserver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\QuoteObserver\obj\Debug\netstandard2.0\QuoteObserver.AssemblyInfoInputs.cache
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\QuoteObserver\obj\Debug\netstandard2.0\QuoteObserver.AssemblyInfo.cs
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\QuoteObserver\obj\Debug\netstandard2.0\QuoteObserver.csproj.CoreCompileInputs.cache
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\QuoteObserver\obj\Debug\netstandard2.0\QuoteObserver.csproj.CopyComplete
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\QuoteObserver\obj\Debug\netstandard2.0\QuoteObserver.dll
+C:\Users\ivasc\RiderProjects\MT4Arbitrage\QuoteObserver\obj\Debug\netstandard2.0\QuoteObserver.pdb

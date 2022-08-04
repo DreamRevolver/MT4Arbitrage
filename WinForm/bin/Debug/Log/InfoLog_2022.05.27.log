@@ -1,0 +1,1215 @@
+15:30:01,998 | INFO  | Config Loader | Loading config.json
+15:30:02,087 | INFO  | Config Loader | READ EURUSD, Spread: 0.1
+15:30:02,088 | INFO  | Config Loader | READ GBPUSD, Spread: 0.2
+15:30:02,089 | INFO  | Config Loader | READ USDJPY, Spread: 0.3
+15:30:02,089 | INFO  | Config Loader | config.json loaded
+15:30:02,099 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.1]
+15:30:02,100 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.2]
+15:30:02,101 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.3]
+15:30:02,107 | INFO  | 166666 | CREATE CONNECTOR
+15:30:02,108 | INFO  | 166666 | START CLIENT
+15:30:03,515 | INFO  | 166666 | CONNECTED
+15:30:03,517 | INFO  | Observer | ADD FAST BROKER 166666
+15:30:03,517 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+15:30:03,518 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+15:30:03,518 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+15:30:03,520 | INFO  | 26015101 | CREATE CONNECTOR
+15:30:03,520 | INFO  | 26015101 | START CLIENT
+15:30:04,873 | INFO  | 26015101 | CONNECTED
+15:30:04,873 | INFO  | Observer | ADD SLOW BROKER 26015101
+15:30:04,873 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+15:30:04,874 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+15:30:04,875 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+15:30:04,881 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+15:30:05,041 | INFO  | Observer | ADD FAST BROKER LMAX
+15:30:09,904 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+15:30:25,891 | INFO  | Config Loader | Loading config.json
+15:30:25,972 | INFO  | Config Loader | READ EURUSD, Spread: 0.1
+15:30:25,973 | INFO  | Config Loader | READ GBPUSD, Spread: 0.2
+15:30:25,974 | INFO  | Config Loader | READ USDJPY, Spread: 0.3
+15:30:25,974 | INFO  | Config Loader | config.json loaded
+15:30:25,983 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.1]
+15:30:25,984 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.2]
+15:30:25,985 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.3]
+15:30:25,990 | INFO  | 166666 | CREATE CONNECTOR
+15:30:25,991 | INFO  | 166666 | START CLIENT
+15:30:27,471 | INFO  | 166666 | CONNECTED
+15:30:27,473 | INFO  | Observer | ADD FAST BROKER 166666
+15:30:27,473 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+15:30:27,474 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+15:30:27,474 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+15:30:27,475 | INFO  | 26015101 | CREATE CONNECTOR
+15:30:27,476 | INFO  | 26015101 | START CLIENT
+15:30:28,761 | INFO  | 26015101 | CONNECTED
+15:30:28,761 | INFO  | Observer | ADD SLOW BROKER 26015101
+15:30:28,761 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+15:30:28,762 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+15:30:28,763 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+15:30:28,770 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+15:30:28,906 | INFO  | Observer | ADD FAST BROKER LMAX
+15:30:29,220 | INFO  | FixLMAXBrokerConnector | Logon
+15:30:29,225 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+15:30:29,229 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+15:30:29,231 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+15:33:35,069 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+15:33:35,561 | INFO  | FixLMAXBrokerConnector | Logout
+15:33:56,410 | INFO  | Config Loader | Loading config.json
+15:33:56,495 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+15:33:56,496 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+15:33:56,497 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+15:33:56,497 | INFO  | Config Loader | config.json loaded
+15:33:56,506 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+15:33:56,508 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+15:33:56,509 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+15:33:56,514 | INFO  | 166666 | CREATE CONNECTOR
+15:33:56,515 | INFO  | 166666 | START CLIENT
+15:33:57,902 | INFO  | 166666 | CONNECTED
+15:33:57,904 | INFO  | Observer | ADD FAST BROKER 166666
+15:33:57,904 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+15:33:57,905 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+15:33:57,905 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+15:33:57,909 | INFO  | 26015101 | CREATE CONNECTOR
+15:33:57,909 | INFO  | 26015101 | START CLIENT
+15:33:59,240 | INFO  | 26015101 | CONNECTED
+15:33:59,240 | INFO  | Observer | ADD SLOW BROKER 26015101
+15:33:59,240 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+15:33:59,241 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+15:33:59,242 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+15:33:59,249 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+15:33:59,388 | INFO  | Observer | ADD FAST BROKER LMAX
+15:33:59,575 | INFO  | FixLMAXBrokerConnector | Logon
+15:33:59,579 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+15:33:59,582 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+15:33:59,584 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+15:35:57,706 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+15:35:58,382 | INFO  | FixLMAXBrokerConnector | Logout
+15:36:36,074 | INFO  | Config Loader | Loading config.json
+15:36:36,157 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+15:36:36,158 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+15:36:36,159 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+15:36:36,159 | INFO  | Config Loader | config.json loaded
+15:36:36,168 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+15:36:36,170 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+15:36:36,171 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+15:36:36,176 | INFO  | 166666 | CREATE CONNECTOR
+15:36:36,177 | INFO  | 166666 | START CLIENT
+15:36:37,615 | INFO  | 166666 | CONNECTED
+15:36:37,617 | INFO  | Observer | ADD FAST BROKER 166666
+15:36:37,617 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+15:36:37,618 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+15:36:37,618 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+15:36:37,620 | INFO  | 26015101 | CREATE CONNECTOR
+15:36:37,621 | INFO  | 26015101 | START CLIENT
+15:36:38,905 | INFO  | 26015101 | CONNECTED
+15:36:38,905 | INFO  | Observer | ADD SLOW BROKER 26015101
+15:36:38,905 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+15:36:38,906 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+15:36:38,907 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+15:36:38,914 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+15:36:39,053 | INFO  | Observer | ADD FAST BROKER LMAX
+15:36:39,372 | INFO  | FixLMAXBrokerConnector | Logon
+15:36:39,375 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+15:36:39,379 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+15:36:39,380 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+15:40:52,678 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+15:40:53,660 | INFO  | FixLMAXBrokerConnector | Logout
+16:26:27,478 | INFO  | Config Loader | Loading config.json
+16:26:27,564 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+16:26:27,564 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+16:26:27,565 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+16:26:27,565 | INFO  | Config Loader | config.json loaded
+16:26:27,574 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+16:26:27,576 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+16:26:27,577 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+16:26:27,582 | INFO  | 166666 | CREATE CONNECTOR
+16:26:27,583 | INFO  | 166666 | START CLIENT
+16:26:29,030 | INFO  | 166666 | CONNECTED
+16:26:29,032 | INFO  | Observer | ADD FAST BROKER 166666
+16:26:29,032 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+16:26:29,033 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+16:26:29,033 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+16:26:29,037 | INFO  | 26015101 | CREATE CONNECTOR
+16:26:29,038 | INFO  | 26015101 | START CLIENT
+16:26:30,304 | INFO  | 26015101 | CONNECTED
+16:26:30,304 | INFO  | Observer | ADD SLOW BROKER 26015101
+16:26:30,305 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+16:26:30,306 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+16:26:30,306 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+16:26:30,314 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+16:26:30,455 | INFO  | Observer | ADD FAST BROKER LMAX
+16:26:30,778 | INFO  | FixLMAXBrokerConnector | Logon
+16:26:30,782 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+16:26:30,785 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+16:26:30,787 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+16:29:24,477 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+16:29:24,715 | INFO  | FixLMAXBrokerConnector | Logout
+16:35:00,950 | INFO  | Config Loader | Loading config.json
+16:35:01,034 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+16:35:01,035 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+16:35:01,035 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+16:35:01,036 | INFO  | Config Loader | config.json loaded
+16:35:01,045 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+16:35:01,046 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+16:35:01,047 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+16:35:01,053 | INFO  | 166666 | CREATE CONNECTOR
+16:35:01,054 | INFO  | 166666 | START CLIENT
+16:35:02,612 | INFO  | 166666 | CONNECTED
+16:35:02,614 | INFO  | Observer | ADD FAST BROKER 166666
+16:35:02,614 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+16:35:02,615 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+16:35:02,615 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+16:35:02,617 | INFO  | 26015101 | CREATE CONNECTOR
+16:35:02,618 | INFO  | 26015101 | START CLIENT
+16:35:03,906 | INFO  | 26015101 | CONNECTED
+16:35:03,906 | INFO  | Observer | ADD SLOW BROKER 26015101
+16:35:03,907 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+16:35:03,907 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+16:35:03,908 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+16:35:03,915 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+16:35:04,055 | INFO  | Observer | ADD FAST BROKER LMAX
+16:35:04,368 | INFO  | FixLMAXBrokerConnector | Logon
+16:35:04,371 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+16:35:04,375 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+16:35:04,377 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+16:37:02,950 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+16:37:03,680 | INFO  | FixLMAXBrokerConnector | Logout
+16:38:53,066 | INFO  | Config Loader | Loading config.json
+16:38:53,149 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+16:38:53,150 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+16:38:53,151 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+16:38:53,151 | INFO  | Config Loader | config.json loaded
+16:38:53,160 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+16:38:53,162 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+16:38:53,163 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+16:38:53,168 | INFO  | 166666 | CREATE CONNECTOR
+16:38:53,169 | INFO  | 166666 | START CLIENT
+16:38:54,544 | INFO  | 166666 | CONNECTED
+16:38:54,546 | INFO  | Observer | ADD FAST BROKER 166666
+16:38:54,546 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+16:38:54,547 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+16:38:54,547 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+16:38:54,549 | INFO  | 26015101 | CREATE CONNECTOR
+16:38:54,549 | INFO  | 26015101 | START CLIENT
+16:38:55,868 | INFO  | 26015101 | CONNECTED
+16:38:55,868 | INFO  | Observer | ADD SLOW BROKER 26015101
+16:38:55,868 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+16:38:55,869 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+16:38:55,870 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+16:38:55,877 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+16:38:56,017 | INFO  | Observer | ADD FAST BROKER LMAX
+16:38:56,203 | INFO  | FixLMAXBrokerConnector | Logon
+16:38:56,207 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+16:38:56,210 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+16:38:56,212 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+16:39:32,912 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+16:39:33,869 | INFO  | FixLMAXBrokerConnector | Logout
+16:47:14,106 | INFO  | Config Loader | Loading config.json
+16:47:14,192 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+16:47:14,193 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+16:47:14,193 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+16:47:14,194 | INFO  | Config Loader | config.json loaded
+16:47:14,203 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+16:47:14,204 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+16:47:14,205 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+16:47:14,210 | INFO  | 166666 | CREATE CONNECTOR
+16:47:14,212 | INFO  | 166666 | START CLIENT
+16:47:15,593 | INFO  | 166666 | CONNECTED
+16:47:15,595 | INFO  | Observer | ADD FAST BROKER 166666
+16:47:15,595 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+16:47:15,596 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+16:47:15,596 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+16:47:15,600 | INFO  | 26015101 | CREATE CONNECTOR
+16:47:15,600 | INFO  | 26015101 | START CLIENT
+16:47:16,968 | INFO  | 26015101 | CONNECTED
+16:47:16,968 | INFO  | Observer | ADD SLOW BROKER 26015101
+16:47:16,969 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+16:47:16,969 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+16:47:16,970 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+16:47:16,978 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+16:47:17,119 | INFO  | Observer | ADD FAST BROKER LMAX
+16:47:17,474 | INFO  | FixLMAXBrokerConnector | Logon
+16:47:17,478 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+16:47:17,482 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+16:47:17,484 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+16:47:39,468 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+16:47:40,431 | INFO  | FixLMAXBrokerConnector | Logout
+16:48:48,880 | INFO  | Config Loader | Loading config.json
+16:48:48,962 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+16:48:48,963 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+16:48:48,964 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+16:48:48,964 | INFO  | Config Loader | config.json loaded
+16:48:48,973 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+16:48:48,974 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+16:48:48,975 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+16:48:48,980 | INFO  | 166666 | CREATE CONNECTOR
+16:48:48,981 | INFO  | 166666 | START CLIENT
+16:48:50,412 | INFO  | 166666 | CONNECTED
+16:48:50,414 | INFO  | Observer | ADD FAST BROKER 166666
+16:48:50,414 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+16:48:50,415 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+16:48:50,415 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+16:48:50,417 | INFO  | 26015101 | CREATE CONNECTOR
+16:48:50,417 | INFO  | 26015101 | START CLIENT
+16:48:51,718 | INFO  | 26015101 | CONNECTED
+16:48:51,718 | INFO  | Observer | ADD SLOW BROKER 26015101
+16:48:51,719 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+16:48:51,720 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+16:48:51,720 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+16:48:51,727 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+16:48:51,867 | INFO  | Observer | ADD FAST BROKER LMAX
+16:48:52,048 | INFO  | FixLMAXBrokerConnector | Logon
+16:48:52,052 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+16:48:52,055 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+16:48:52,057 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+16:50:16,005 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+16:50:16,934 | INFO  | FixLMAXBrokerConnector | Logout
+16:51:42,689 | INFO  | Config Loader | Loading config.json
+16:51:42,775 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+16:51:42,776 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+16:51:42,777 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+16:51:42,777 | INFO  | Config Loader | config.json loaded
+16:51:42,787 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+16:51:42,788 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+16:51:42,789 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+16:51:42,797 | INFO  | 166666 | CREATE CONNECTOR
+16:51:42,798 | INFO  | 166666 | START CLIENT
+16:51:44,238 | INFO  | 166666 | CONNECTED
+16:51:44,240 | INFO  | Observer | ADD FAST BROKER 166666
+16:51:44,240 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+16:51:44,241 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+16:51:44,241 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+16:51:44,244 | INFO  | 26015101 | CREATE CONNECTOR
+16:51:44,245 | INFO  | 26015101 | START CLIENT
+16:51:45,532 | INFO  | 26015101 | CONNECTED
+16:51:45,532 | INFO  | Observer | ADD SLOW BROKER 26015101
+16:51:45,532 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+16:51:45,533 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+16:51:45,534 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+16:51:45,541 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+16:51:45,681 | INFO  | Observer | ADD FAST BROKER LMAX
+16:51:45,864 | INFO  | FixLMAXBrokerConnector | Logon
+16:51:45,868 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+16:51:45,872 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+16:51:45,873 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+16:52:28,667 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+16:52:29,134 | INFO  | FixLMAXBrokerConnector | Logout
+16:53:22,062 | INFO  | Config Loader | Loading config.json
+16:53:22,145 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+16:53:22,146 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+16:53:22,146 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+16:53:22,147 | INFO  | Config Loader | config.json loaded
+16:53:22,156 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+16:53:22,157 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+16:53:22,158 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+16:53:22,164 | INFO  | 166666 | CREATE CONNECTOR
+16:53:22,165 | INFO  | 166666 | START CLIENT
+16:53:23,534 | INFO  | 166666 | CONNECTED
+16:53:23,536 | INFO  | Observer | ADD FAST BROKER 166666
+16:53:23,536 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+16:53:23,537 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+16:53:23,537 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+16:53:23,539 | INFO  | 26015101 | CREATE CONNECTOR
+16:53:23,539 | INFO  | 26015101 | START CLIENT
+16:53:24,906 | INFO  | 26015101 | CONNECTED
+16:53:24,906 | INFO  | Observer | ADD SLOW BROKER 26015101
+16:53:24,907 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+16:53:24,907 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+16:53:24,908 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+16:53:24,915 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+16:53:25,055 | INFO  | Observer | ADD FAST BROKER LMAX
+16:53:25,341 | INFO  | FixLMAXBrokerConnector | Logon
+16:53:25,344 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+16:53:25,348 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+16:53:25,349 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+16:55:24,134 | ERROR | UNHANDLED ThreadException | ThreadException EXCEPTION FROM SENDER: System.Threading.Thread => Message Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index | StackTrace    at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at WinForm.SpreadWindow.InfoDataGridView_CellMouseClick(Object sender, DataGridViewCellMouseEventArgs e) in C:\Users\ivasc\RiderProjects\MT4Arbitrage\WinForm\SpreadWindow.cs:line 215
+   at System.Windows.Forms.DataGridView.OnCellMouseClick(DataGridViewCellMouseEventArgs e)
+   at System.Windows.Forms.DataGridView.OnMouseClick(MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.DataGridView.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+16:56:01,373 | ERROR | UNHANDLED ThreadException | ThreadException EXCEPTION FROM SENDER: System.Threading.Thread => Message Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index | StackTrace    at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at WinForm.SpreadWindow.InfoDataGridView_CellMouseClick(Object sender, DataGridViewCellMouseEventArgs e) in C:\Users\ivasc\RiderProjects\MT4Arbitrage\WinForm\SpreadWindow.cs:line 215
+   at System.Windows.Forms.DataGridView.OnCellMouseClick(DataGridViewCellMouseEventArgs e)
+   at System.Windows.Forms.DataGridView.OnMouseClick(MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.DataGridView.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+16:56:37,670 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+16:56:37,787 | INFO  | FixLMAXBrokerConnector | Logout
+16:59:22,888 | INFO  | Config Loader | Loading config.json
+16:59:22,971 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+16:59:22,972 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+16:59:22,972 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+16:59:22,973 | INFO  | Config Loader | config.json loaded
+16:59:22,982 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+16:59:22,983 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+16:59:22,984 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+16:59:22,989 | INFO  | 166666 | CREATE CONNECTOR
+16:59:22,990 | INFO  | 166666 | START CLIENT
+16:59:24,467 | INFO  | 166666 | CONNECTED
+16:59:24,469 | INFO  | Observer | ADD FAST BROKER 166666
+16:59:24,469 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+16:59:24,470 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+16:59:24,470 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+16:59:24,471 | INFO  | 26015101 | CREATE CONNECTOR
+16:59:24,472 | INFO  | 26015101 | START CLIENT
+16:59:25,761 | INFO  | 26015101 | CONNECTED
+16:59:25,761 | INFO  | Observer | ADD SLOW BROKER 26015101
+16:59:25,762 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+16:59:25,763 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+16:59:25,763 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+16:59:25,770 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+16:59:25,908 | INFO  | Observer | ADD FAST BROKER LMAX
+16:59:26,190 | INFO  | FixLMAXBrokerConnector | Logon
+16:59:26,194 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+16:59:26,198 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+16:59:26,199 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+17:03:05,776 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+17:03:05,950 | INFO  | FixLMAXBrokerConnector | Logout
+17:17:59,022 | INFO  | Config Loader | Loading config.json
+17:17:59,105 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+17:17:59,106 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+17:17:59,107 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+17:17:59,107 | INFO  | Config Loader | config.json loaded
+17:17:59,116 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+17:17:59,117 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+17:17:59,118 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+17:17:59,123 | INFO  | 166666 | CREATE CONNECTOR
+17:17:59,124 | INFO  | 166666 | START CLIENT
+17:18:00,505 | INFO  | 166666 | CONNECTED
+17:18:00,507 | INFO  | Observer | ADD FAST BROKER 166666
+17:18:00,507 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+17:18:00,508 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+17:18:00,508 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+17:18:00,512 | INFO  | 26015101 | CREATE CONNECTOR
+17:18:00,513 | INFO  | 26015101 | START CLIENT
+17:18:01,829 | INFO  | 26015101 | CONNECTED
+17:18:01,829 | INFO  | Observer | ADD SLOW BROKER 26015101
+17:18:01,830 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+17:18:01,830 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+17:18:01,831 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+17:18:01,838 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+17:18:01,980 | INFO  | Observer | ADD FAST BROKER LMAX
+17:18:02,277 | INFO  | FixLMAXBrokerConnector | Logon
+17:18:02,281 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+17:18:02,285 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+17:18:02,286 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+17:18:22,381 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+17:18:22,745 | INFO  | FixLMAXBrokerConnector | Logout
+17:19:37,491 | INFO  | Config Loader | Loading config.json
+17:19:37,575 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+17:19:37,576 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+17:19:37,577 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+17:19:37,577 | INFO  | Config Loader | config.json loaded
+17:19:37,586 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+17:19:37,587 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+17:19:37,589 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+17:19:37,594 | INFO  | 166666 | CREATE CONNECTOR
+17:19:37,595 | INFO  | 166666 | START CLIENT
+17:19:39,073 | INFO  | 166666 | CONNECTED
+17:19:39,075 | INFO  | Observer | ADD FAST BROKER 166666
+17:19:39,075 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+17:19:39,076 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+17:19:39,077 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+17:19:39,079 | INFO  | 26015101 | CREATE CONNECTOR
+17:19:39,080 | INFO  | 26015101 | START CLIENT
+17:19:40,349 | INFO  | 26015101 | CONNECTED
+17:19:40,349 | INFO  | Observer | ADD SLOW BROKER 26015101
+17:19:40,350 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+17:19:40,350 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+17:19:40,351 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+17:19:40,358 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+17:19:40,500 | INFO  | Observer | ADD FAST BROKER LMAX
+17:19:40,681 | INFO  | FixLMAXBrokerConnector | Logon
+17:19:40,685 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+17:19:40,688 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+17:19:40,690 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+17:23:14,110 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+17:23:14,842 | INFO  | FixLMAXBrokerConnector | Logout
+17:36:39,780 | INFO  | Config Loader | Loading config.json
+17:36:39,864 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+17:36:39,864 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+17:36:39,865 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+17:36:39,866 | INFO  | Config Loader | config.json loaded
+17:36:39,875 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+17:36:39,876 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+17:36:39,877 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+17:36:39,882 | INFO  | 166666 | CREATE CONNECTOR
+17:36:39,883 | INFO  | 166666 | START CLIENT
+17:36:41,268 | INFO  | 166666 | CONNECTED
+17:36:41,270 | INFO  | Observer | ADD FAST BROKER 166666
+17:36:41,270 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+17:36:41,271 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+17:36:41,271 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+17:36:41,275 | INFO  | 26015101 | CREATE CONNECTOR
+17:36:41,275 | INFO  | 26015101 | START CLIENT
+17:36:42,576 | INFO  | 26015101 | CONNECTED
+17:36:42,576 | INFO  | Observer | ADD SLOW BROKER 26015101
+17:36:42,577 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+17:36:42,577 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+17:36:42,578 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+17:36:42,585 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+17:36:42,727 | INFO  | Observer | ADD FAST BROKER LMAX
+17:36:43,040 | INFO  | FixLMAXBrokerConnector | Logon
+17:36:43,043 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+17:36:43,047 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+17:36:43,051 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+17:37:41,824 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+17:37:42,218 | INFO  | FixLMAXBrokerConnector | Logout
+17:38:27,984 | INFO  | Config Loader | Loading config.json
+17:38:28,068 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+17:38:28,069 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+17:38:28,069 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+17:38:28,070 | INFO  | Config Loader | config.json loaded
+17:38:28,079 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+17:38:28,080 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+17:38:28,081 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+17:38:28,086 | INFO  | 166666 | CREATE CONNECTOR
+17:38:28,087 | INFO  | 166666 | START CLIENT
+17:38:29,529 | INFO  | 166666 | CONNECTED
+17:38:29,531 | INFO  | Observer | ADD FAST BROKER 166666
+17:38:29,531 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+17:38:29,532 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+17:38:29,532 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+17:38:29,533 | INFO  | 26015101 | CREATE CONNECTOR
+17:38:29,534 | INFO  | 26015101 | START CLIENT
+17:38:30,855 | INFO  | 26015101 | CONNECTED
+17:38:30,855 | INFO  | Observer | ADD SLOW BROKER 26015101
+17:38:30,856 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+17:38:30,856 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+17:38:30,857 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+17:38:30,864 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+17:38:31,002 | INFO  | Observer | ADD FAST BROKER LMAX
+17:38:31,181 | INFO  | FixLMAXBrokerConnector | Logon
+17:38:31,184 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+17:38:31,188 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+17:38:31,191 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+17:39:05,626 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+17:39:05,737 | INFO  | FixLMAXBrokerConnector | Logout
+17:59:17,807 | INFO  | Config Loader | Loading config.json
+17:59:17,890 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+17:59:17,891 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+17:59:17,891 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+17:59:17,892 | INFO  | Config Loader | config.json loaded
+17:59:17,901 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+17:59:17,902 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+17:59:17,903 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+17:59:17,908 | INFO  | 166666 | CREATE CONNECTOR
+17:59:17,909 | INFO  | 166666 | START CLIENT
+17:59:19,291 | INFO  | 166666 | CONNECTED
+17:59:19,293 | INFO  | Observer | ADD FAST BROKER 166666
+17:59:19,293 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+17:59:19,294 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+17:59:19,294 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+17:59:19,296 | INFO  | 26015101 | CREATE CONNECTOR
+17:59:19,296 | INFO  | 26015101 | START CLIENT
+17:59:20,596 | INFO  | 26015101 | CONNECTED
+17:59:20,596 | INFO  | Observer | ADD SLOW BROKER 26015101
+17:59:20,597 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+17:59:20,597 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+17:59:20,598 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+17:59:20,604 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+17:59:20,743 | INFO  | Observer | ADD FAST BROKER LMAX
+17:59:21,049 | INFO  | FixLMAXBrokerConnector | Logon
+17:59:21,052 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+17:59:21,056 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+17:59:21,058 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+18:02:31,001 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+18:02:31,497 | INFO  | FixLMAXBrokerConnector | Logout
+18:06:15,623 | INFO  | Config Loader | Loading config.json
+18:06:15,706 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+18:06:15,707 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+18:06:15,707 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+18:06:15,708 | INFO  | Config Loader | config.json loaded
+18:06:15,717 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+18:06:15,718 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+18:06:15,719 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+18:06:15,724 | INFO  | 166666 | CREATE CONNECTOR
+18:06:15,725 | INFO  | 166666 | START CLIENT
+18:06:17,210 | INFO  | 166666 | CONNECTED
+18:06:17,212 | INFO  | Observer | ADD FAST BROKER 166666
+18:06:17,212 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+18:06:17,213 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+18:06:17,214 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+18:06:17,215 | INFO  | 26015101 | CREATE CONNECTOR
+18:06:17,216 | INFO  | 26015101 | START CLIENT
+18:06:18,532 | INFO  | 26015101 | CONNECTED
+18:06:18,532 | INFO  | Observer | ADD SLOW BROKER 26015101
+18:06:18,533 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+18:06:18,533 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+18:06:18,534 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+18:06:18,542 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+18:06:18,680 | INFO  | Observer | ADD FAST BROKER LMAX
+18:06:18,972 | INFO  | FixLMAXBrokerConnector | Logon
+18:06:18,976 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+18:06:18,980 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+18:06:18,981 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+18:07:53,926 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+18:07:54,059 | INFO  | FixLMAXBrokerConnector | Logout
+18:31:17,989 | INFO  | Config Loader | Loading config.json
+18:31:18,078 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+18:31:18,079 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+18:31:18,080 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+18:31:18,080 | INFO  | Config Loader | config.json loaded
+18:31:18,090 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+18:31:18,091 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+18:31:18,092 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+18:31:18,099 | INFO  | 166666 | CREATE CONNECTOR
+18:31:18,101 | INFO  | 166666 | START CLIENT
+18:31:19,486 | INFO  | 166666 | CONNECTED
+18:31:19,488 | INFO  | Observer | ADD FAST BROKER 166666
+18:31:19,488 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+18:31:19,489 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+18:31:19,490 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+18:31:19,494 | INFO  | 26015101 | CREATE CONNECTOR
+18:31:19,495 | INFO  | 26015101 | START CLIENT
+18:31:20,762 | INFO  | 26015101 | CONNECTED
+18:31:20,762 | INFO  | Observer | ADD SLOW BROKER 26015101
+18:31:20,763 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+18:31:20,763 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+18:31:20,764 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+18:31:20,771 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+18:31:20,920 | INFO  | Observer | ADD FAST BROKER LMAX
+18:31:21,201 | INFO  | FixLMAXBrokerConnector | Logon
+18:31:21,204 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+18:31:21,207 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+18:31:21,209 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+18:31:21,391 | INFO  | Observer | ARBITRAGE LMAX Bid (127.103) - 26015101 Ask (127.101) > 0.001
+18:31:21,702 | INFO  | Observer | ARBITRAGE LMAX Bid (127.103) - 26015101 Ask (127.101) > 0.001
+18:32:03,721 | INFO  | Observer | ARBITRAGE 26015101 Bid (127.131) - LMAX Ask (127.13) > 0.001
+18:32:04,047 | INFO  | Observer | ARBITRAGE 26015101 Bid (127.131) - LMAX Ask (127.13) > 0.001
+18:32:44,515 | INFO  | Observer | ARBITRAGE 26015101 Bid (127.117) - LMAX Ask (127.116) > 0.001
+18:32:49,551 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+18:32:49,788 | INFO  | FixLMAXBrokerConnector | Logout
+18:33:34,950 | INFO  | Config Loader | Loading config.json
+18:33:35,031 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+18:33:35,032 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+18:33:35,033 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+18:33:35,033 | INFO  | Config Loader | config.json loaded
+18:33:35,042 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+18:33:35,043 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+18:33:35,044 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+18:33:35,049 | INFO  | 166666 | CREATE CONNECTOR
+18:33:35,050 | INFO  | 166666 | START CLIENT
+18:33:36,487 | INFO  | 166666 | CONNECTED
+18:33:36,489 | INFO  | Observer | ADD FAST BROKER 166666
+18:33:36,489 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+18:33:36,490 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+18:33:36,490 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+18:33:36,491 | INFO  | 26015101 | CREATE CONNECTOR
+18:33:36,492 | INFO  | 26015101 | START CLIENT
+18:33:37,861 | INFO  | 26015101 | CONNECTED
+18:33:37,861 | INFO  | Observer | ADD SLOW BROKER 26015101
+18:33:37,862 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+18:33:37,862 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+18:33:37,863 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+18:33:37,870 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+18:33:38,007 | INFO  | Observer | ADD FAST BROKER LMAX
+18:33:38,194 | INFO  | FixLMAXBrokerConnector | Logon
+18:33:38,198 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+18:33:38,202 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+18:33:38,203 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+18:33:48,601 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.142) - LMAX Ask (127.14) > 0.001
+18:33:57,038 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.14) - LMAX Ask (127.139) > 0.001
+18:34:14,683 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.141) - LMAX Ask (127.139) > 0.001
+18:34:14,837 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.141) - LMAX Ask (127.139) > 0.001
+18:34:24,999 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.132) - LMAX Ask (127.131) > 0.001
+18:34:45,325 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.141) - LMAX Ask (127.136) > 0.001
+18:34:47,775 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+18:34:48,270 | INFO  | FixLMAXBrokerConnector | Logout
+18:56:23,154 | INFO  | Config Loader | Loading config.json
+18:56:23,237 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+18:56:23,238 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+18:56:23,238 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+18:56:23,239 | INFO  | Config Loader | config.json loaded
+18:56:23,248 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+18:56:23,249 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+18:56:23,250 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+18:56:23,256 | INFO  | 166666 | CREATE CONNECTOR
+18:56:23,257 | INFO  | 166666 | START CLIENT
+18:56:24,739 | INFO  | 166666 | CONNECTED
+18:56:24,741 | INFO  | Observer | ADD FAST BROKER 166666
+18:56:24,741 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+18:56:24,742 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+18:56:24,742 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+18:56:24,744 | INFO  | 26015101 | CREATE CONNECTOR
+18:56:24,745 | INFO  | 26015101 | START CLIENT
+18:56:26,047 | INFO  | 26015101 | CONNECTED
+18:56:26,047 | INFO  | Observer | ADD SLOW BROKER 26015101
+18:56:26,047 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+18:56:26,048 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+18:56:26,049 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+18:56:26,056 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+18:57:06,042 | INFO  | Config Loader | Loading config.json
+18:57:06,178 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+18:57:06,179 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+18:57:06,179 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+18:57:06,180 | INFO  | Config Loader | config.json loaded
+18:57:06,187 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+18:57:06,188 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+18:57:06,189 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+18:57:06,193 | INFO  | 166666 | CREATE CONNECTOR
+18:57:06,194 | INFO  | 166666 | START CLIENT
+18:57:08,051 | INFO  | 166666 | CONNECTED
+18:57:08,053 | INFO  | Observer | ADD FAST BROKER 166666
+18:57:08,054 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+18:57:08,054 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+18:57:08,055 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+18:57:08,057 | INFO  | 26015101 | CREATE CONNECTOR
+18:57:08,058 | INFO  | 26015101 | START CLIENT
+18:57:09,525 | INFO  | 26015101 | CONNECTED
+18:57:09,525 | INFO  | Observer | ADD SLOW BROKER 26015101
+18:57:09,526 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+18:57:09,527 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+18:57:09,529 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+18:57:09,535 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+18:58:18,252 | INFO  | Config Loader | Loading config.json
+18:58:18,387 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+18:58:18,387 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+18:58:18,388 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+18:58:18,389 | INFO  | Config Loader | config.json loaded
+18:58:18,396 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+18:58:18,397 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+18:58:18,398 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+18:58:18,402 | INFO  | 166666 | CREATE CONNECTOR
+18:58:18,403 | INFO  | 166666 | START CLIENT
+18:58:19,858 | INFO  | 166666 | CONNECTED
+18:58:19,858 | INFO  | Observer | ADD FAST BROKER 166666
+18:58:19,860 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+18:58:19,861 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+18:58:19,862 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+18:58:19,863 | INFO  | 26015101 | CREATE CONNECTOR
+18:58:19,863 | INFO  | 26015101 | START CLIENT
+18:58:21,188 | INFO  | 26015101 | CONNECTED
+18:58:21,188 | INFO  | Observer | ADD SLOW BROKER 26015101
+18:58:21,188 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+18:58:21,189 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+18:58:21,190 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+18:58:21,195 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+18:58:21,529 | INFO  | Observer | ADD FAST BROKER LMAX
+18:58:21,872 | INFO  | FixLMAXBrokerConnector | Logon
+18:58:21,876 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+18:58:21,883 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+18:58:21,885 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+19:00:03,980 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.146) - LMAX Ask (127.144) > 0.001
+19:00:04,274 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.146) - LMAX Ask (127.145) > 0.001
+19:01:32,590 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.144) - 26015101 Ask (127.143) > 0.001
+19:01:32,746 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.144) - 26015101 Ask (127.143) > 0.001
+19:03:50,434 | INFO  | Config Loader | Loading config.json
+19:03:50,520 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+19:03:50,521 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+19:03:50,521 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+19:03:50,522 | INFO  | Config Loader | config.json loaded
+19:03:50,532 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+19:03:50,533 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+19:03:50,535 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+19:03:50,539 | INFO  | 166666 | CREATE CONNECTOR
+19:03:50,540 | INFO  | 166666 | START CLIENT
+19:03:51,967 | INFO  | 166666 | CONNECTED
+19:03:51,969 | INFO  | Observer | ADD FAST BROKER 166666
+19:03:51,969 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+19:03:51,970 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+19:03:51,971 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+19:03:51,971 | INFO  | 26015101 | CREATE CONNECTOR
+19:03:51,972 | INFO  | 26015101 | START CLIENT
+19:03:53,258 | INFO  | 26015101 | CONNECTED
+19:03:53,258 | INFO  | Observer | ADD SLOW BROKER 26015101
+19:03:53,259 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+19:03:53,259 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+19:03:53,260 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+19:03:53,267 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+19:03:53,405 | INFO  | Observer | ADD FAST BROKER LMAX
+19:03:53,720 | INFO  | FixLMAXBrokerConnector | Logon
+19:03:53,723 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:03:53,727 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+19:03:53,729 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+19:03:59,365 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.159) - 26015101 Ask (127.155) > 0.001
+19:03:59,504 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.16) - 26015101 Ask (127.155) > 0.001
+19:03:59,987 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.159) - 26015101 Ask (127.155) > 0.001
+19:04:06,093 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.163) - 26015101 Ask (127.159) > 0.001
+19:04:06,329 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.161) - 26015101 Ask (127.159) > 0.001
+19:04:07,960 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.164) - LMAX Ask (127.163) > 0.001
+19:04:09,038 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.165) - LMAX Ask (127.164) > 0.001
+19:04:09,367 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.165) - LMAX Ask (127.163) > 0.001
+19:04:20,930 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.169) - 26015101 Ask (127.165) > 0.001
+19:04:23,103 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.166) - LMAX Ask (127.162) > 0.001
+19:04:28,101 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+19:04:28,683 | INFO  | FixLMAXBrokerConnector | Logout
+19:06:28,069 | INFO  | Config Loader | Loading config.json
+19:06:28,204 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+19:06:28,205 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+19:06:28,206 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+19:06:28,206 | INFO  | Config Loader | config.json loaded
+19:06:28,214 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+19:06:28,215 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+19:06:28,216 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+19:06:28,220 | INFO  | 166666 | CREATE CONNECTOR
+19:06:28,221 | INFO  | 166666 | START CLIENT
+19:06:29,821 | INFO  | 166666 | CONNECTED
+19:06:29,822 | INFO  | Observer | ADD FAST BROKER 166666
+19:06:29,823 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+19:06:29,823 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+19:06:29,824 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+19:06:29,828 | INFO  | 26015101 | CREATE CONNECTOR
+19:06:29,829 | INFO  | 26015101 | START CLIENT
+19:06:31,148 | INFO  | 26015101 | CONNECTED
+19:06:31,148 | INFO  | Observer | ADD SLOW BROKER 26015101
+19:06:31,149 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+19:06:31,150 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+19:06:31,150 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+19:06:31,156 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+19:06:31,491 | INFO  | Observer | ADD FAST BROKER LMAX
+19:06:31,727 | INFO  | FixLMAXBrokerConnector | Logon
+19:06:31,730 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:06:31,734 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+19:06:31,736 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+19:06:56,742 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.189) - 26015101 Ask (127.187) > 0.001
+19:07:44,929 | INFO  | FixLMAXBrokerConnector | Logout
+19:07:44,973 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.187) - LMAX Ask (127.185) > 0.001
+19:07:44,975 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.187) - LMAX Ask (127.185) > 0.001
+19:07:44,976 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.187) - LMAX Ask (127.185) > 0.001
+19:07:44,979 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.197) - 26015101 Ask (127.192) > 0.001
+19:07:44,985 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.197) - 26015101 Ask (127.193) > 0.001
+19:07:44,986 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.195) - 26015101 Ask (127.192) > 0.001
+19:07:44,988 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.195) - 26015101 Ask (127.193) > 0.001
+19:07:44,989 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.196) - 26015101 Ask (127.192) > 0.001
+19:07:44,991 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.196) - 26015101 Ask (127.193) > 0.001
+19:07:45,018 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.196) - 26015101 Ask (127.192) > 0.001
+19:07:45,019 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.196) - 26015101 Ask (127.193) > 0.001
+19:07:45,053 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.194) - 26015101 Ask (127.192) > 0.001
+19:07:45,082 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.195) - 26015101 Ask (127.193) > 0.001
+19:07:45,110 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.195) - 26015101 Ask (127.192) > 0.001
+19:07:45,112 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.195) - 26015101 Ask (127.193) > 0.001
+19:07:45,113 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.196) - 26015101 Ask (127.192) > 0.001
+19:07:45,115 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.196) - 26015101 Ask (127.193) > 0.001
+19:07:45,116 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.193) - 26015101 Ask (127.192) > 0.001
+19:07:45,117 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.195) - 26015101 Ask (127.193) > 0.001
+19:07:45,118 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.194) - 26015101 Ask (127.192) > 0.001
+19:07:45,120 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.194) - 26015101 Ask (127.193) > 0.001
+19:07:45,160 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.194) - 26015101 Ask (127.192) > 0.001
+19:07:45,161 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.195) - 26015101 Ask (127.193) > 0.001
+19:07:45,163 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.193) - 26015101 Ask (127.192) > 0.001
+19:07:45,163 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.195) - 26015101 Ask (127.193) > 0.001
+19:07:45,165 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.194) - 26015101 Ask (127.193) > 0.001
+19:07:45,167 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.196) - 26015101 Ask (127.192) > 0.001
+19:07:45,168 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.196) - 26015101 Ask (127.193) > 0.001
+19:07:45,169 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.195) - 26015101 Ask (127.192) > 0.001
+19:07:45,207 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.195) - 26015101 Ask (127.193) > 0.001
+19:07:45,207 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.194) - 26015101 Ask (127.192) > 0.001
+19:07:45,210 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.194) - 26015101 Ask (127.193) > 0.001
+19:07:45,210 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.194) - 26015101 Ask (127.192) > 0.001
+19:07:45,225 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.196) - 26015101 Ask (127.192) > 0.001
+19:07:45,228 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.195) - 26015101 Ask (127.192) > 0.001
+19:07:45,229 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.194) - 26015101 Ask (127.193) > 0.001
+19:07:45,230 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.191) - 26015101 Ask (127.19) > 0.001
+19:07:45,232 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.194) - 26015101 Ask (127.193) > 0.001
+19:07:45,233 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.194) - 26015101 Ask (127.189) > 0.001
+19:07:45,235 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.191) - 26015101 Ask (127.188) > 0.001
+19:07:45,238 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.195) - 26015101 Ask (127.193) > 0.001
+19:07:45,243 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.19) - 26015101 Ask (127.189) > 0.001
+19:07:45,245 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.196) - 26015101 Ask (127.193) > 0.001
+19:07:45,246 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.194) - 26015101 Ask (127.193) > 0.001
+19:07:45,249 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.194) - 26015101 Ask (127.193) > 0.001
+19:08:39,570 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.187) - LMAX Ask (127.184) > 0.001
+19:08:41,430 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.187) - LMAX Ask (127.185) > 0.001
+19:08:41,605 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.187) - LMAX Ask (127.183) > 0.001
+19:08:41,741 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.187) - LMAX Ask (127.181) > 0.001
+19:08:44,414 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.187) - LMAX Ask (127.185) > 0.001
+19:08:45,797 | INFO  | FixLMAXBrokerConnector | Logon
+19:08:45,798 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:08:45,799 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+19:08:45,803 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+19:17:47,894 | INFO  | FixLMAXBrokerConnector | Logout
+19:17:49,217 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.179) - 26015101 Ask (127.178) > 0.001
+19:17:49,248 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.179) - 26015101 Ask (127.178) > 0.001
+19:17:49,250 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.179) - 26015101 Ask (127.178) > 0.001
+19:17:49,708 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.179) - 26015101 Ask (127.178) > 0.001
+19:20:10,762 | INFO  | FixLMAXBrokerConnector | Logon
+19:20:10,763 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:20:11,474 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+19:20:12,052 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+19:20:13,658 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.179) - 26015101 Ask (127.128) > 0.001
+19:20:47,251 | INFO  | FixLMAXBrokerConnector | Logout
+19:21:07,886 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+19:21:15,772 | INFO  | Config Loader | Loading config.json
+19:21:15,858 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+19:21:15,858 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+19:21:15,859 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+19:21:15,860 | INFO  | Config Loader | config.json loaded
+19:21:15,869 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+19:21:15,870 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+19:21:15,871 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+19:21:15,876 | INFO  | 166666 | CREATE CONNECTOR
+19:21:15,877 | INFO  | 166666 | START CLIENT
+19:21:17,284 | INFO  | 166666 | CONNECTED
+19:21:17,286 | INFO  | Observer | ADD FAST BROKER 166666
+19:21:17,286 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+19:21:17,287 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+19:21:17,287 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+19:21:17,288 | INFO  | 26015101 | CREATE CONNECTOR
+19:21:17,289 | INFO  | 26015101 | START CLIENT
+19:21:18,654 | INFO  | 26015101 | CONNECTED
+19:21:18,654 | INFO  | Observer | ADD SLOW BROKER 26015101
+19:21:18,654 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+19:21:18,655 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+19:21:18,656 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+19:21:18,663 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+19:21:18,801 | INFO  | Observer | ADD FAST BROKER LMAX
+19:21:18,986 | INFO  | FixLMAXBrokerConnector | Logon
+19:21:18,990 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:21:18,994 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+19:21:18,996 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+19:24:22,285 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+19:24:22,919 | INFO  | FixLMAXBrokerConnector | Logout
+19:24:30,891 | INFO  | Config Loader | Loading config.json
+19:24:31,026 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+19:24:31,026 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+19:24:31,027 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+19:24:31,028 | INFO  | Config Loader | config.json loaded
+19:24:31,035 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+19:24:31,036 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+19:24:31,037 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+19:24:31,041 | INFO  | 166666 | CREATE CONNECTOR
+19:24:31,042 | INFO  | 166666 | START CLIENT
+19:24:32,542 | INFO  | 166666 | CONNECTED
+19:24:32,542 | INFO  | Observer | ADD FAST BROKER 166666
+19:24:32,544 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+19:24:32,545 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+19:24:32,545 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+19:24:32,547 | INFO  | 26015101 | CREATE CONNECTOR
+19:24:32,547 | INFO  | 26015101 | START CLIENT
+19:24:34,118 | INFO  | 26015101 | CONNECTED
+19:24:34,118 | INFO  | Observer | ADD SLOW BROKER 26015101
+19:24:34,119 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+19:24:34,119 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+19:24:34,120 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+19:24:34,125 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+19:24:34,458 | INFO  | Observer | ADD FAST BROKER LMAX
+19:24:34,687 | INFO  | FixLMAXBrokerConnector | Logon
+19:24:34,690 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:24:34,694 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+19:24:34,696 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+19:24:43,845 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.102) - 26015101 Ask (127.099) > 0.001
+19:24:48,671 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.099) - LMAX Ask (127.096) > 0.001
+19:24:56,339 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.093) - LMAX Ask (127.09) > 0.001
+19:24:56,484 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.093) - LMAX Ask (127.09) > 0.001
+19:28:35,439 | INFO  | FixLMAXBrokerConnector | Logout
+19:28:37,963 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.097) - 166666 Ask (127.094) > 0.001
+19:28:39,097 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.098) - 166666 Ask (127.095) > 0.001
+19:28:39,102 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.098) - 166666 Ask (127.096) > 0.001
+19:28:39,104 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.095) - 26015101 Ask (127.093) > 0.001
+19:28:39,937 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.101) - 166666 Ask (127.099) > 0.001
+19:28:39,938 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.095) - 26015101 Ask (127.093) > 0.001
+19:28:39,941 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.1) - 166666 Ask (127.096) > 0.001
+19:28:40,640 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.095) - 26015101 Ask (127.093) > 0.001
+19:28:41,339 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.1) - 166666 Ask (127.098) > 0.001
+19:28:41,340 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.095) - 26015101 Ask (127.093) > 0.001
+19:28:41,343 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.101) - 166666 Ask (127.097) > 0.001
+19:28:41,948 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.096) - 26015101 Ask (127.093) > 0.001
+19:28:41,949 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.103) - 166666 Ask (127.101) > 0.001
+19:28:42,600 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.101) - 166666 Ask (127.097) > 0.001
+19:28:42,602 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.096) - 26015101 Ask (127.093) > 0.001
+19:28:42,603 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.104) - 166666 Ask (127.102) > 0.001
+19:28:43,156 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.096) - 26015101 Ask (127.093) > 0.001
+19:28:43,160 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.1) - 166666 Ask (127.097) > 0.001
+19:28:43,161 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.096) - 26015101 Ask (127.093) > 0.001
+19:28:43,162 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.103) - 166666 Ask (127.1) > 0.001
+19:28:43,666 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.103) - 166666 Ask (127.097) > 0.001
+19:28:43,666 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.099) - 26015101 Ask (127.093) > 0.001
+19:28:43,668 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.103) - 26015101 Ask (127.093) > 0.001
+19:28:43,673 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.104) - 26015101 Ask (127.093) > 0.001
+19:29:08,614 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.107) - 26015101 Ask (127.106) > 0.001
+19:29:09,357 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.113) - 26015101 Ask (127.093) > 0.001
+19:29:09,362 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.108) - 26015101 Ask (127.106) > 0.001
+19:29:09,363 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.108) - 26015101 Ask (127.106) > 0.001
+19:29:52,105 | INFO  | Config Loader | Loading config.json
+19:29:52,242 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+19:29:52,243 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+19:29:52,243 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+19:29:52,244 | INFO  | Config Loader | config.json loaded
+19:29:52,251 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+19:29:52,252 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+19:29:52,253 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+19:29:52,258 | INFO  | 166666 | CREATE CONNECTOR
+19:29:52,259 | INFO  | 166666 | START CLIENT
+19:29:53,683 | INFO  | 166666 | CONNECTED
+19:29:53,683 | INFO  | Observer | ADD FAST BROKER 166666
+19:29:53,685 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+19:29:53,686 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+19:29:53,687 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+19:29:53,689 | INFO  | 26015101 | CREATE CONNECTOR
+19:29:53,689 | INFO  | 26015101 | START CLIENT
+19:29:55,054 | INFO  | 26015101 | CONNECTED
+19:29:55,054 | INFO  | Observer | ADD SLOW BROKER 26015101
+19:29:55,055 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+19:29:55,055 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+19:29:55,056 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+19:29:55,061 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+19:29:55,402 | INFO  | Observer | ADD FAST BROKER LMAX
+19:29:55,713 | INFO  | FixLMAXBrokerConnector | Logon
+19:29:55,716 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:29:55,720 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+19:29:55,722 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+19:29:59,851 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.104) - 26015101 Ask (127.103) > 0.001
+19:30:09,494 | INFO  | FixLMAXBrokerConnector | Logout
+19:30:55,877 | INFO  | FixLMAXBrokerConnector | Logon
+19:30:55,878 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:30:55,880 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+19:30:55,881 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+19:31:07,342 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.114) - 26015101 Ask (127.11) > 0.001
+19:31:07,815 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.113) - 26015101 Ask (127.11) > 0.001
+19:33:53,903 | INFO  | Config Loader | Loading config.json
+19:33:54,038 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+19:33:54,039 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+19:33:54,039 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+19:33:54,040 | INFO  | Config Loader | config.json loaded
+19:33:54,047 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+19:33:54,049 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+19:33:54,049 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+19:33:54,054 | INFO  | 166666 | CREATE CONNECTOR
+19:33:54,055 | INFO  | 166666 | START CLIENT
+19:33:55,482 | INFO  | Observer | ADD FAST BROKER 166666
+19:33:55,482 | INFO  | 166666 | CONNECTED
+19:33:55,485 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+19:33:55,485 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+19:33:55,486 | INFO  | 26015101 | CREATE CONNECTOR
+19:33:55,486 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+19:33:55,487 | INFO  | 26015101 | START CLIENT
+19:33:56,801 | INFO  | 26015101 | CONNECTED
+19:33:56,801 | INFO  | Observer | ADD SLOW BROKER 26015101
+19:33:56,802 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+19:33:56,802 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+19:33:56,803 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+19:33:56,808 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+19:33:57,148 | INFO  | Observer | ADD FAST BROKER LMAX
+19:34:12,681 | INFO  | FixLMAXBrokerConnector | Logout
+19:34:36,314 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.091) - 166666 Ask (127.089) > 0.001
+19:34:57,725 | INFO  | FixLMAXBrokerConnector | Logon
+19:34:57,729 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:34:57,733 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+19:34:57,735 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+19:35:04,552 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.096) - 26015101 Ask (127.093) > 0.001
+19:35:06,980 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.094) - LMAX Ask (127.092) > 0.001
+19:36:17,661 | INFO  | FixLMAXBrokerConnector | Logout
+19:36:25,102 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.097) - 26015101 Ask (127.093) > 0.001
+19:36:25,567 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.096) - 26015101 Ask (127.093) > 0.001
+19:36:25,897 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.097) - 26015101 Ask (127.093) > 0.001
+19:36:26,206 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.099) - 26015101 Ask (127.093) > 0.001
+19:36:26,524 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.098) - 26015101 Ask (127.093) > 0.001
+19:36:27,912 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.099) - 26015101 Ask (127.093) > 0.001
+19:36:30,099 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.097) - 26015101 Ask (127.093) > 0.001
+19:36:30,271 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.098) - 26015101 Ask (127.093) > 0.001
+19:36:31,818 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.099) - 26015101 Ask (127.093) > 0.001
+19:36:37,308 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.096) - 26015101 Ask (127.093) > 0.001
+19:36:38,696 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.097) - 26015101 Ask (127.093) > 0.001
+19:36:43,244 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.098) - 26015101 Ask (127.093) > 0.001
+19:36:43,698 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.098) - 26015101 Ask (127.093) > 0.001
+19:36:45,730 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.097) - 26015101 Ask (127.093) > 0.001
+19:36:54,183 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.096) - 26015101 Ask (127.093) > 0.001
+19:36:54,668 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.097) - 26015101 Ask (127.093) > 0.001
+19:37:01,999 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.097) - 26015101 Ask (127.093) > 0.001
+19:37:02,112 | INFO  | FixLMAXBrokerConnector | Logon
+19:37:02,113 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:37:02,114 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+19:37:02,116 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+19:37:32,812 | INFO  | FixLMAXBrokerConnector | Logout
+19:37:54,646 | INFO  | Observer | ARBITRAGE USDJPY 166666 Bid (127.095) - 26015101 Ask (127.094) > 0.001
+19:37:54,648 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.095) - LMAX Ask (127.094) > 0.001
+19:37:54,650 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.095) - LMAX Ask (127.092) > 0.001
+19:37:54,652 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.095) - LMAX Ask (127.094) > 0.001
+19:37:54,653 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.095) - LMAX Ask (127.09) > 0.001
+19:37:54,656 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.095) - LMAX Ask (127.09) > 0.001
+19:37:54,658 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.095) - LMAX Ask (127.089) > 0.001
+19:38:00,739 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.095) - LMAX Ask (127.094) > 0.001
+19:38:01,554 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.095) - LMAX Ask (127.09) > 0.001
+19:38:02,814 | INFO  | FixLMAXBrokerConnector | Logon
+19:38:02,815 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:38:02,818 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+19:38:02,820 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+19:38:10,134 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.095) - LMAX Ask (127.091) > 0.001
+19:38:32,168 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.092) - LMAX Ask (127.091) > 0.001
+19:39:03,258 | INFO  | FixLMAXBrokerConnector | Logout
+19:39:09,832 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.098) - 26015101 Ask (127.097) > 0.001
+19:39:10,000 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.098) - 26015101 Ask (127.097) > 0.001
+19:39:10,158 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.098) - 26015101 Ask (127.097) > 0.001
+19:39:11,236 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.098) - 26015101 Ask (127.097) > 0.001
+19:39:12,485 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.098) - 26015101 Ask (127.097) > 0.001
+19:39:13,284 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.101) - 26015101 Ask (127.097) > 0.001
+19:39:13,439 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.102) - 26015101 Ask (127.097) > 0.001
+19:40:03,896 | INFO  | FixLMAXBrokerConnector | Logon
+19:40:03,897 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:40:03,900 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+19:40:03,902 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+19:40:06,561 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.111) - 26015101 Ask (127.109) > 0.001
+19:40:06,731 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.112) - 26015101 Ask (127.109) > 0.001
+19:40:07,028 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.112) - 26015101 Ask (127.109) > 0.001
+19:40:57,994 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.111) - 26015101 Ask (127.109) > 0.001
+19:41:28,159 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.11) - 26015101 Ask (127.109) > 0.001
+19:41:35,546 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.111) - 26015101 Ask (127.109) > 0.001
+19:41:35,548 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.11) - 26015101 Ask (127.109) > 0.001
+19:41:51,892 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.099) - LMAX Ask (127.098) > 0.001
+19:42:15,334 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.103) - 26015101 Ask (127.101) > 0.001
+19:49:36,719 | INFO  | Config Loader | Loading config.json
+19:49:36,803 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+19:49:36,804 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+19:49:36,804 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+19:49:36,805 | INFO  | Config Loader | config.json loaded
+19:49:36,814 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+19:49:36,815 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+19:49:36,816 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+19:49:36,822 | INFO  | 166666 | CREATE CONNECTOR
+19:49:36,823 | INFO  | 166666 | START CLIENT
+19:49:38,266 | INFO  | 166666 | CONNECTED
+19:49:38,268 | INFO  | Observer | ADD FAST BROKER 166666
+19:49:38,268 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+19:49:38,269 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+19:49:38,270 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+19:49:38,271 | INFO  | 26015101 | CREATE CONNECTOR
+19:49:38,272 | INFO  | 26015101 | START CLIENT
+19:49:39,558 | INFO  | 26015101 | CONNECTED
+19:49:39,558 | INFO  | Observer | ADD SLOW BROKER 26015101
+19:49:39,559 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+19:49:39,559 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+19:49:39,560 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+19:49:39,567 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+19:49:39,708 | INFO  | Observer | ADD FAST BROKER LMAX
+19:49:40,034 | INFO  | FixLMAXBrokerConnector | Logon
+19:49:40,037 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+19:49:40,041 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+19:49:40,042 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+19:49:43,721 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.126) - 26015101 Ask (127.123) > 0.001
+19:50:34,666 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.128) - 26015101 Ask (127.125) > 0.001
+19:50:44,212 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.135) - 26015101 Ask (127.131) > 0.001
+19:50:44,994 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.137) - 26015101 Ask (127.136) > 0.001
+19:50:45,135 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.137) - 26015101 Ask (127.136) > 0.001
+19:50:50,758 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.145) - 26015101 Ask (127.143) > 0.001
+19:50:51,540 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.144) - 26015101 Ask (127.143) > 0.001
+19:51:12,190 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.15) - 26015101 Ask (127.147) > 0.001
+19:51:12,328 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.153) - 26015101 Ask (127.147) > 0.001
+19:51:16,252 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.153) - 26015101 Ask (127.152) > 0.001
+19:51:16,876 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.153) - 26015101 Ask (127.152) > 0.001
+19:51:21,707 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.156) - 26015101 Ask (127.154) > 0.001
+19:51:32,806 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.161) - 26015101 Ask (127.158) > 0.001
+19:51:51,399 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.155) - 26015101 Ask (127.154) > 0.001
+19:52:02,809 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.159) - 26015101 Ask (127.158) > 0.001
+19:52:02,980 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.16) - 26015101 Ask (127.158) > 0.001
+19:52:03,275 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.161) - 26015101 Ask (127.158) > 0.001
+19:52:11,729 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.159) - 26015101 Ask (127.158) > 0.001
+19:52:11,884 | INFO  | Observer | ARBITRAGE USDJPY LMAX Bid (127.159) - 26015101 Ask (127.158) > 0.001
+19:52:45,659 | INFO  | Observer | ARBITRAGE USDJPY 26015101 Bid (127.145) - LMAX Ask (127.143) > 0.001
+19:52:50,463 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+19:52:51,106 | INFO  | FixLMAXBrokerConnector | Logout
+20:02:40,533 | INFO  | Config Loader | Loading config.json
+20:02:40,624 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+20:02:40,624 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+20:02:40,625 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+20:02:40,626 | INFO  | Config Loader | config.json loaded
+20:02:40,635 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+20:02:40,636 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+20:02:40,637 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+20:02:40,644 | INFO  | 166666 | CREATE CONNECTOR
+20:02:40,645 | INFO  | 166666 | START CLIENT
+20:02:42,064 | INFO  | 166666 | CONNECTED
+20:02:42,066 | INFO  | Observer | ADD FAST BROKER 166666
+20:02:42,066 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+20:02:42,067 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+20:02:42,068 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+20:02:42,069 | INFO  | 26015101 | CREATE CONNECTOR
+20:02:42,070 | INFO  | 26015101 | START CLIENT
+20:02:43,437 | INFO  | 26015101 | CONNECTED
+20:02:43,437 | INFO  | Observer | ADD SLOW BROKER 26015101
+20:02:43,438 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+20:02:43,438 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+20:02:43,439 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+20:02:43,446 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+20:02:43,587 | INFO  | Observer | ADD FAST BROKER LMAX
+20:02:43,903 | INFO  | FixLMAXBrokerConnector | Logon
+20:02:43,907 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+20:02:43,911 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+20:02:43,912 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+20:06:51,474 | INFO  | Config Loader | Loading config.json
+20:06:51,608 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+20:06:51,609 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+20:06:51,610 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+20:06:51,610 | INFO  | Config Loader | config.json loaded
+20:06:51,618 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+20:06:51,619 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+20:06:51,620 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+20:06:51,624 | INFO  | 166666 | CREATE CONNECTOR
+20:06:51,625 | INFO  | 166666 | START CLIENT
+20:06:53,098 | INFO  | Observer | ADD FAST BROKER 166666
+20:06:53,126 | INFO  | 166666 | CONNECTED
+20:06:53,129 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+20:06:53,129 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+20:06:53,130 | INFO  | 26015101 | CREATE CONNECTOR
+20:06:53,130 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+20:06:53,130 | INFO  | 26015101 | START CLIENT
+20:06:54,497 | INFO  | 26015101 | CONNECTED
+20:06:54,497 | INFO  | Observer | ADD SLOW BROKER 26015101
+20:06:54,498 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+20:06:54,498 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+20:06:54,499 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+20:06:54,504 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+20:06:54,861 | INFO  | Observer | ADD FAST BROKER LMAX
+20:06:55,087 | INFO  | FixLMAXBrokerConnector | Logon
+20:06:55,091 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+20:06:55,095 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+20:06:55,097 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+20:09:08,049 | INFO  | FixLMAXBrokerConnector | Logout
+20:10:08,702 | INFO  | FixLMAXBrokerConnector | Logon
+20:10:08,703 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+20:10:08,704 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+20:10:08,706 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+20:11:02,506 | INFO  | FixLMAXBrokerConnector | Logout
+20:11:08,616 | INFO  | FixLMAXBrokerConnector | Logon
+20:11:08,616 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+20:11:08,618 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+20:11:08,620 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+20:11:26,232 | INFO  | FixLMAXBrokerConnector | Logout
+20:12:08,634 | INFO  | FixLMAXBrokerConnector | Logon
+20:12:08,635 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+20:12:08,636 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+20:12:08,638 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
+20:14:34,138 | INFO  | FixLMAXBrokerConnector | Stoping LMAX FIX connector
+20:14:34,368 | INFO  | FixLMAXBrokerConnector | Logout
+20:16:11,174 | INFO  | Config Loader | Loading config.json
+20:16:11,258 | INFO  | Config Loader | READ EURUSD, Spread: 0.001
+20:16:11,259 | INFO  | Config Loader | READ GBPUSD, Spread: 0.001
+20:16:11,259 | INFO  | Config Loader | READ USDJPY, Spread: 0.001
+20:16:11,260 | INFO  | Config Loader | config.json loaded
+20:16:11,269 | INFO  | Observer | ADD [Pair: EURUSD, Spread: 0.001]
+20:16:11,270 | INFO  | Observer | ADD [Pair: GBPUSD, Spread: 0.001]
+20:16:11,271 | INFO  | Observer | ADD [Pair: USDJPY, Spread: 0.001]
+20:16:11,276 | INFO  | 166666 | CREATE CONNECTOR
+20:16:11,277 | INFO  | 166666 | START CLIENT
+20:16:12,727 | INFO  | 166666 | CONNECTED
+20:16:12,729 | INFO  | Observer | ADD FAST BROKER 166666
+20:16:12,729 | INFO  | 166666 | SUBSCRIBE [Pair: EURUSD]
+20:16:12,730 | INFO  | 166666 | SUBSCRIBE [Pair: GBPUSD]
+20:16:12,730 | INFO  | 166666 | SUBSCRIBE [Pair: USDJPY]
+20:16:12,731 | INFO  | 26015101 | CREATE CONNECTOR
+20:16:12,732 | INFO  | 26015101 | START CLIENT
+20:16:14,021 | INFO  | 26015101 | CONNECTED
+20:16:14,021 | INFO  | Observer | ADD SLOW BROKER 26015101
+20:16:14,021 | INFO  | 26015101 | SUBSCRIBE [Pair: EURUSD]
+20:16:14,022 | INFO  | 26015101 | SUBSCRIBE [Pair: GBPUSD]
+20:16:14,023 | INFO  | 26015101 | SUBSCRIBE [Pair: USDJPY]
+20:16:14,030 | INFO  | FixLMAXBrokerConnector | Starting LMAX FIX connector
+20:16:14,168 | INFO  | Observer | ADD FAST BROKER LMAX
+20:16:14,498 | INFO  | FixLMAXBrokerConnector | Logon
+20:16:14,501 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to EURUSD
+20:16:14,505 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to GBPUSD
+20:16:14,506 | INFO  | FixLMAXBrokerConnector.Subscribe | Subscribing to USDJPY
